@@ -1,0 +1,655 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /*overflow-y: hidden;*/
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+
+    .section1_firstHalf {
+        background: url("img_1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+       /* margin: 0;
+        padding: 0;*/
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+
+        .firstHalf_heading {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+
+            .heading_logo {
+                background: url("logo_1.png");
+                background-repeat: no-repeat;
+                width: 10%;
+                height: 20vh;
+                position: absolute;
+                transform: translateX(80%);
+            }
+
+            .heading_others {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                width: 100%;
+                height: 20vh;
+
+                .others_inputText {
+                    width: 250px;
+                    height: 40px;
+                    margin-right: 20px;
+                    border-radius: 100px;
+                    background-image: linear-gradient(to right, rgb(56, 53, 53), rgb(78, 78, 80));
+                    border: none;
+                    color: rgb(175, 175, 175);
+                    text-indent: 15px;
+                    letter-spacing: 1px;
+                    font-family: 'Open Sans';
+                    outline: none;
+
+                }
+
+                .others_searchButton {
+                    height: 40px;
+                    width: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-left: -50px;
+                    color: white;
+                    font-size: 13px;
+                }
+
+                .others_inputButton {
+                    width: 120px;
+                    height: 40px;
+                    margin-right: 20px;
+                    border-radius: 100px;
+                    background-color: #835fa8;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    font-weight: bold;
+                    border: 5px solid transparent;
+                }
+
+                .others_menu {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 50px;
+                    margin-top: 5px;
+
+                    .menu_1, .menu_2, .menu_3 {
+                        height: 0.2rem;
+                        width: 20px;
+                        background-color: white;
+                        border-radius: 100px;
+                        margin-top: 6px;
+                    }
+                }
+            }
+        }
+
+        .firstHalf_writing {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin-left: 45%;
+            margin-top: 10%;
+
+            span {
+                font-size: 3.5rem;
+                font-family: 'Open Sans';
+                font-weight: 100;
+            }
+
+            p {
+                line-height: 220%;
+                font-size: 1rem;
+                font-family: 'Open Sans';
+                font-weight: 400;
+            }
+        }
+    }
+
+    .section1_secondhalf {
+        height: 71vh;
+        width: 100%;
+        background-color: #835fa8;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .secondHalf_writing {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                font-size: 3rem;
+                font-family: 'Century Gothic Regular';
+                font-weight: lighter;
+                color: white;
+            }
+
+            p{
+                color: white;
+                line-height: 25px;
+                margin-top: 5%;
+                font-size: 15px;
+                font-family: 'Open Sans';
+                font-weight: 500;
+            }
+
+            input {
+                width: 40%;
+                height: 40px;
+                margin-right: 20px;
+                border-radius: 100px;
+                background-color: #3dd2ae;
+                border: none;
+                color: white;
+                letter-spacing: 1px;
+                font-family: 'Open Sans';
+                font-weight: bold;
+                outline: none;
+            }
+        }
+
+        .secondHalf_mobilePhone {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+
+            .secondHalf_message {              /**************************************************************************/
+                width: auto;
+                height: auto;
+                background-color: #e8eaf1;
+
+                .message_bar {
+                    width: 40ch;
+                    height: 40vh;
+                    font-family: 'Open Sans';
+                }
+
+                .msg_1 {
+                    background-color: #a145eb;
+                    height: 9vh;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    font-weight: 500;
+
+                    .message_menu {
+                        display: flex;
+                        flex-direction: column;
+
+                        .line_1 {
+                            width: 25px;
+                            height: 3px;
+                            background-color: white;
+                            border-radius: 50px 50px 50px 50px;
+                        }
+
+                        .line_2 {
+                            width: 20px;
+                            height: 3px;
+                            margin-top: 4px;
+                            margin-bottom: 4px;
+                            background-color: white;
+                            border-radius: 50px 50px 50px 50px;
+                        }
+                    }
+
+                    .message_text {
+                        color: white;
+                    }
+                }
+
+                .msg_2,
+                .msg_3 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    background-color: white;
+                    height: 12vh;
+                    margin-bottom: 3px;
+
+                    .msg_img {
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 50%;
+                        background-color: yellow;
+                        background: url('Elon Musk.jpg');
+                        background-size: 140%;
+                        position: realtive;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            height: 17px;
+                            width: 17px;
+                            border-radius: 50%;
+                            background-color: white;
+                            border: 3px rgb(43, 156, 231) solid;
+                            transform: translate(210%, 210%);
+                        }
+
+                        &::before {
+                            content: '3';
+                            height: 70px;
+                            width: 70px;
+                            color: white;
+                            font-size: 25px;
+                            font-weight: 600;
+                            text-align: center;
+                            line-height: 70px;
+                            border-radius: 50%;
+                            position: absolute;
+                            background-color: #c413e746;
+                        }
+                    }
+
+                    .msg_text {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: -15px;
+
+                        .text_top {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            width: 25ch;
+
+                            .text_name {
+                                font-size: 17px;
+                                font-weight: 800;
+                            }
+
+                            .text_time {
+                                font-weight: 600;
+                            }
+                        }
+
+                        .text_msg {
+                            font-size: 13px;
+                            font-weight: 600;
+                            margin-top: 3px;
+                            line-height: 18px;
+                            color: #696363;
+                        }
+                    }
+                }
+
+                .msg_3 {
+                    .msg_img {
+                        background: url('Dan Lok.png');
+                        background-size: 130%;
+                        background-position: 0 70%;
+
+                        &::after {
+                            transform: translate(200%, 220%);
+                        }
+
+                        &::before {
+                            content: '4';
+                        }
+                    }
+                }
+
+                .msg_4 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    background-color: white;
+                    height: 12vh;
+
+                    .msg_img {
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 50%;
+                        background: url('Tim Han.jpg');
+                        background-size: 140%;
+                    }
+
+                    .msg_text {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: -15px;
+
+                        .text_top {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            width: 25ch;
+
+                            .text_name {
+                                font-weight: bold;
+                            }
+
+                            .text_time {
+                                font-weight: 600;
+                            }
+                        }
+
+                        .text_msg {
+                            font-size: 13px;
+                            font-weight: 600;
+                            margin-top: 5px;
+                            line-height: 18px;
+                            color: #696363;
+                        }
+                    }
+                }
+            }            /**************************************************************************/
+
+            .secondHalf_mobile {                /**************************************************************************/
+                width: 48ch;
+                height: 75vh;
+                font-family: 'Open Sans';
+
+                .mobile_body {
+                    background-color: black;
+                    border-radius: 35px;
+                    width: 45ch;
+                    height: 83vh;
+                    margin-top: -10%;
+                    z-index: 1;
+                    position: relative;
+                    border: 2px black solid;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+
+                    &::before {
+                        content: '';
+                        background: #242424;
+                        border-radius: 0 35px 0 0;
+                        position: absolute;
+                        left: 20%;
+                        width: 80%;
+                        height: 30%;
+                    }
+
+                    &::after {
+                        content: '';
+                        background: black;
+                        position: absolute;
+                        left: 20%;
+                        width: 45%;
+                        height: 30%;
+                        -webkit-clip-path: polygon(0 0, 47% 0, 85% 100%, 0% 100%);
+                        clip-path: polygon(0 0, 47% 0, 85% 100%, 0% 100%);
+                    }
+
+                    .mobile_body_parts {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        height: 100%;
+
+                        .mobile_camera {
+                            width: 18px;
+                            height: 18px;
+                            border-radius: 50%;
+                            background: #2f2f2f;
+                            z-index: 1;
+                        }
+
+                        .mobile_speaker {
+                            width: 70px;
+                            height: 15px;
+                            border-radius: 50px;
+                            background: #2f2f2f;
+                            z-index: 1;
+                            position: relative;
+
+                            &::before {
+                                content: '';
+                                width: 20px;
+                                height: 15px;
+                                position: absolute;
+                                border-radius: 50px 0 0 50px;
+                                background-color: #252525;
+                            }
+
+                            &::after {
+                                content: '';
+                                width: 20px;
+                                height: 15px;
+                                position: absolute;
+                                left: 20%;
+                                border-radius: 50px 0 0 50px;
+                                background-color: #252525;
+                                -webkit-clip-path: polygon(0 0, 51% 0, 76% 100%, 0% 100%);
+                                clip-path: polygon(0 0, 51% 0, 76% 100%, 0% 100%);
+                            }
+                        }
+
+                        .mobile_screen {
+                            height: 80%;
+                            width: 40ch;
+                            background-color: #e8eaf1;
+                            z-index: 1;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            .top_bar {
+                                width: 100%;
+                                height: 7vh;
+                                background-color: #a145eb;
+                                display: flex;
+                                flex-direction: row;
+                                color: white;
+                                justify-content: space-around;
+                                align-items: center;
+
+                                .bar_menu {
+                                    height: 2.5vh;
+
+                                    .line_1 {
+                                        width: 25px;
+                                        height: 3px;
+                                        background-color: white;
+                                        border-radius: 50px 50px 50px 50px;
+                                    }
+
+                                    .line_2 {
+                                        width: 20px;
+                                        height: 3px;
+                                        margin-top: 4px;
+                                        margin-bottom: 4px;
+                                        background-color: white;
+                                        border-radius: 50px 50px 50px 50px;
+                                    }
+                                }
+                            }
+
+                            .screen_settings {
+
+                                .fieldset_1 {
+                                    border: none;
+
+                                    legend {
+                                        margin-left: 5%;
+                                    }
+
+                                    .settings_box {
+                                        width: 100%;
+                                        height: 7vh;
+                                        background-color: white;
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+
+                                        .lab {
+                                            margin-left: 5%;
+                                            font-size: 13px;
+                                            color: #9b9b9b;
+                                        }
+
+                                        .box_button {
+                                            margin-right: 5%;
+                                            height: 3vh;
+                                            width: 8vh;
+                                            display: flex;
+                                            flex-direction: row;
+
+                                            .text {
+                                                width: 60%;
+                                                background-color: #e8eaf1;
+                                                height: 3vh;
+                                                text-align: center;
+                                                line-height: 23px;
+                                                font-size: 11px;
+                                                color: #9b9b9b;
+                                            }
+
+                                            .text_1 {
+                                                width: 60%;
+                                                background-color: #9bc854;
+                                                height: 3vh;
+                                                text-align: center;
+                                                line-height: 23px;
+                                                font-size: 11px;
+                                                color: #f7f7f7;
+                                            }
+
+                                            .btn {
+                                                width: 40%;
+                                                background-color: white;
+                                                height: 3vh;
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                justify-content: center;
+                                                box-shadow: 1px 1px 5px 1px #cdcfd4;
+
+                                                .line_1,
+                                                .line_2,
+                                                .line_3 {
+                                                    height: 1vh;
+                                                    width: 2px;
+                                                    background-color: #c1c3c7;
+                                                }
+
+                                                .line_2 {
+                                                    margin-left: 2px;
+                                                    margin-right: 2px;
+                                                }
+                                            }
+
+                                            .box_button_arrow {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                justify-content: center;
+
+
+                                                .upLine {
+                                                    width: 2px;
+                                                    height: 1.2vh;
+                                                    background-color: #c1c3c7;
+                                                    transform-origin: center;
+                                                    transform: rotate(-45deg);
+                                                    margin-bottom: -2px;
+                                                    margin-right: -70px;
+                                                }
+
+                                                .downLine {
+                                                    width: 2px;
+                                                    height: 1.2vh;
+                                                    background-color: #c1c3c7;
+                                                    transform-origin: center;
+                                                    transform: rotate(45deg);
+                                                    margin-top: -2px;
+                                                    margin-right: -70px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .box_1,
+                                    .box_2,
+                                    .box_3 {
+                                        margin-bottom: 2px;
+                                    }
+                                }
+
+                                .fieldset_2 {
+                                    border: none;
+
+                                    legend {
+                                        margin-left: 5%;
+                                    }
+
+                                    .settings_box {
+                                        width: 100%;
+                                        height: 7vh;
+                                        background-color: white;
+                                    }
+
+                                    .box_1a,
+                                    .box_2a {
+                                        margin-bottom: 2px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }            /**************************************************************************/
+        }    
+    }
+}

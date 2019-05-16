@@ -1,0 +1,716 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  /*overflow-y: hidden;*/ }
+
+/* width */
+::-webkit-scrollbar {
+  width: 0; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+
+::-webkit-input-placeholder {
+  color: #afafaf; }
+
+:-ms-input-placeholder {
+  color: #afafaf; }
+
+::-ms-input-placeholder {
+  color: #afafaf; }
+
+::placeholder {
+  color: #afafaf; }
+
+section:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%; }
+  section:nth-child(1) .section1_firstHalf {
+    background: url("img_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    /* margin: 0;
+        padding: 0;*/
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    z-index: 1; }
+    section:nth-child(1) .section1_firstHalf .firstHalf_heading {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      width: 100%;
+      height: auto; }
+      section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_logo {
+        background: url("logo_1.png");
+        background-repeat: no-repeat;
+        width: 10%;
+        height: 20vh;
+        position: absolute;
+        -webkit-transform: translateX(80%);
+        -ms-transform: translateX(80%);
+        transform: translateX(80%); }
+      section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        height: 20vh; }
+        section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_inputText {
+          width: 250px;
+          height: 40px;
+          margin-right: 20px;
+          border-radius: 100px;
+          background-image: -webkit-gradient(linear, left top, right top, from(#383535), to(#4e4e50));
+          background-image: -webkit-linear-gradient(left, #383535, #4e4e50);
+          background-image: -o-linear-gradient(left, #383535, #4e4e50);
+          background-image: linear-gradient(to right, #383535, #4e4e50);
+          border: none;
+          color: #afafaf;
+          text-indent: 15px;
+          letter-spacing: 1px;
+          font-family: 'Open Sans';
+          outline: none; }
+        section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_searchButton {
+          height: 40px;
+          width: 50px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-left: -50px;
+          color: white;
+          font-size: 13px; }
+        section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_inputButton {
+          width: 120px;
+          height: 40px;
+          margin-right: 20px;
+          border-radius: 100px;
+          background-color: #835fa8;
+          border: none;
+          outline: none;
+          color: white;
+          font-weight: bold;
+          border: 5px solid transparent; }
+        section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_menu {
+          width: 40px;
+          height: 40px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          margin-right: 50px;
+          margin-top: 5px; }
+          section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_menu .menu_1, section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_menu .menu_2, section:nth-child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_menu .menu_3 {
+            height: 0.2rem;
+            width: 20px;
+            background-color: white;
+            border-radius: 100px;
+            margin-top: 6px; }
+    section:nth-child(1) .section1_firstHalf .firstHalf_writing {
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-left: 45%;
+      margin-top: 10%; }
+      section:nth-child(1) .section1_firstHalf .firstHalf_writing span {
+        font-size: 3.5rem;
+        font-family: 'Open Sans';
+        font-weight: 100; }
+      section:nth-child(1) .section1_firstHalf .firstHalf_writing p {
+        line-height: 220%;
+        font-size: 1rem;
+        font-family: 'Open Sans';
+        font-weight: 400; }
+  section:nth-child(1) .section1_secondhalf {
+    height: 71vh;
+    width: 100%;
+    background-color: #835fa8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    section:nth-child(1) .section1_secondhalf .secondHalf_writing {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      section:nth-child(1) .section1_secondhalf .secondHalf_writing span {
+        font-size: 3rem;
+        font-family: 'Century Gothic Regular';
+        font-weight: lighter;
+        color: white; }
+      section:nth-child(1) .section1_secondhalf .secondHalf_writing p {
+        color: white;
+        line-height: 25px;
+        margin-top: 5%;
+        font-size: 15px;
+        font-family: 'Open Sans';
+        font-weight: 500; }
+      section:nth-child(1) .section1_secondhalf .secondHalf_writing input {
+        width: 40%;
+        height: 40px;
+        margin-right: 20px;
+        border-radius: 100px;
+        background-color: #3dd2ae;
+        border: none;
+        color: white;
+        letter-spacing: 1px;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        outline: none; }
+    section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      /**************************************************************************/
+      /**************************************************************************/ }
+      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message {
+        /**************************************************************************/
+        width: auto;
+        height: auto;
+        background-color: #e8eaf1; }
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .message_bar {
+          width: 40ch;
+          height: 40vh;
+          font-family: 'Open Sans'; }
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_1 {
+          background-color: #a145eb;
+          height: 9vh;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -ms-flex-pack: distribute;
+          justify-content: space-around;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          font-weight: 500; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_1 .message_menu {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_1 .message_menu .line_1 {
+              width: 25px;
+              height: 3px;
+              background-color: white;
+              border-radius: 50px 50px 50px 50px; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_1 .message_menu .line_2 {
+              width: 20px;
+              height: 3px;
+              margin-top: 4px;
+              margin-bottom: 4px;
+              background-color: white;
+              border-radius: 50px 50px 50px 50px; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_1 .message_text {
+            color: white; }
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2,
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          background-color: white;
+          height: 12vh;
+          margin-bottom: 3px; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_img,
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: yellow;
+            background: url("Elon Musk.jpg");
+            background-size: 140%;
+            position: realtive; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_img::after,
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_img::after {
+              content: '';
+              position: absolute;
+              height: 17px;
+              width: 17px;
+              border-radius: 50%;
+              background-color: white;
+              border: 3px #2b9ce7 solid;
+              -webkit-transform: translate(210%, 210%);
+              -ms-transform: translate(210%, 210%);
+              transform: translate(210%, 210%); }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_img::before,
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_img::before {
+              content: '3';
+              height: 70px;
+              width: 70px;
+              color: white;
+              font-size: 25px;
+              font-weight: 600;
+              text-align: center;
+              line-height: 70px;
+              border-radius: 50%;
+              position: absolute;
+              background-color: #c413e746; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_text,
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_text {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-top: -15px; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_text .text_top,
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_text .text_top {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+              flex-direction: row;
+              -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              width: 25ch; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_text .text_top .text_name,
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_text .text_top .text_name {
+                font-size: 17px;
+                font-weight: 800; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_text .text_top .text_time,
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_text .text_top .text_time {
+                font-weight: 600; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_2 .msg_text .text_msg,
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_text .text_msg {
+              font-size: 13px;
+              font-weight: 600;
+              margin-top: 3px;
+              line-height: 18px;
+              color: #696363; }
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_img {
+          background: url("Dan Lok.png");
+          background-size: 130%;
+          background-position: 0 70%; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_img::after {
+            -webkit-transform: translate(200%, 220%);
+            -ms-transform: translate(200%, 220%);
+            transform: translate(200%, 220%); }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_3 .msg_img::before {
+            content: '4'; }
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          background-color: white;
+          height: 12vh; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 .msg_img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background: url("Tim Han.jpg");
+            background-size: 140%; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 .msg_text {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-top: -15px; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 .msg_text .text_top {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+              flex-direction: row;
+              -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              width: 25ch; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 .msg_text .text_top .text_name {
+                font-weight: bold; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 .msg_text .text_top .text_time {
+                font-weight: 600; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_message .msg_4 .msg_text .text_msg {
+              font-size: 13px;
+              font-weight: 600;
+              margin-top: 5px;
+              line-height: 18px;
+              color: #696363; }
+      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile {
+        /**************************************************************************/
+        width: 48ch;
+        height: 75vh;
+        font-family: 'Open Sans'; }
+        section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body {
+          background-color: black;
+          border-radius: 35px;
+          width: 45ch;
+          height: 83vh;
+          margin-top: -10%;
+          z-index: 1;
+          position: relative;
+          border: 2px black solid;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body::before {
+            content: '';
+            background: #242424;
+            border-radius: 0 35px 0 0;
+            position: absolute;
+            left: 20%;
+            width: 80%;
+            height: 30%; }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body::after {
+            content: '';
+            background: black;
+            position: absolute;
+            left: 20%;
+            width: 45%;
+            height: 30%;
+            -webkit-clip-path: polygon(0 0, 47% 0, 85% 100%, 0% 100%);
+            clip-path: polygon(0 0, 47% 0, 85% 100%, 0% 100%); }
+          section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_camera {
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              background: #2f2f2f;
+              z-index: 1; }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_speaker {
+              width: 70px;
+              height: 15px;
+              border-radius: 50px;
+              background: #2f2f2f;
+              z-index: 1;
+              position: relative; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_speaker::before {
+                content: '';
+                width: 20px;
+                height: 15px;
+                position: absolute;
+                border-radius: 50px 0 0 50px;
+                background-color: #252525; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_speaker::after {
+                content: '';
+                width: 20px;
+                height: 15px;
+                position: absolute;
+                left: 20%;
+                border-radius: 50px 0 0 50px;
+                background-color: #252525;
+                -webkit-clip-path: polygon(0 0, 51% 0, 76% 100%, 0% 100%);
+                clip-path: polygon(0 0, 51% 0, 76% 100%, 0% 100%); }
+            section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen {
+              height: 80%;
+              width: 40ch;
+              background-color: #e8eaf1;
+              z-index: 1;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+              justify-content: space-between; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .top_bar {
+                width: 100%;
+                height: 7vh;
+                background-color: #a145eb;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                flex-direction: row;
+                color: white;
+                -ms-flex-pack: distribute;
+                justify-content: space-around;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .top_bar .bar_menu {
+                  height: 2.5vh; }
+                  section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .top_bar .bar_menu .line_1 {
+                    width: 25px;
+                    height: 3px;
+                    background-color: white;
+                    border-radius: 50px 50px 50px 50px; }
+                  section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .top_bar .bar_menu .line_2 {
+                    width: 20px;
+                    height: 3px;
+                    margin-top: 4px;
+                    margin-bottom: 4px;
+                    background-color: white;
+                    border-radius: 50px 50px 50px 50px; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 {
+                border: none; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 legend {
+                  margin-left: 5%; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box {
+                  width: 100%;
+                  height: 7vh;
+                  background-color: white;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-box-orient: horizontal;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: row;
+                  flex-direction: row;
+                  -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                  justify-content: space-between;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center; }
+                  section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .lab {
+                    margin-left: 5%;
+                    font-size: 13px;
+                    color: #9b9b9b; }
+                  section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button {
+                    margin-right: 5%;
+                    height: 3vh;
+                    width: 8vh;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    flex-direction: row; }
+                    section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .text {
+                      width: 60%;
+                      background-color: #e8eaf1;
+                      height: 3vh;
+                      text-align: center;
+                      line-height: 23px;
+                      font-size: 11px;
+                      color: #9b9b9b; }
+                    section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .text_1 {
+                      width: 60%;
+                      background-color: #9bc854;
+                      height: 3vh;
+                      text-align: center;
+                      line-height: 23px;
+                      font-size: 11px;
+                      color: #f7f7f7; }
+                    section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .btn {
+                      width: 40%;
+                      background-color: white;
+                      height: 3vh;
+                      display: -webkit-box;
+                      display: -ms-flexbox;
+                      display: flex;
+                      -webkit-box-orient: horizontal;
+                      -webkit-box-direction: normal;
+                      -ms-flex-direction: row;
+                      flex-direction: row;
+                      -webkit-box-align: center;
+                      -ms-flex-align: center;
+                      align-items: center;
+                      -webkit-box-pack: center;
+                      -ms-flex-pack: center;
+                      justify-content: center;
+                      -webkit-box-shadow: 1px 1px 5px 1px #cdcfd4;
+                      box-shadow: 1px 1px 5px 1px #cdcfd4; }
+                      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .btn .line_1,
+                      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .btn .line_2,
+                      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .btn .line_3 {
+                        height: 1vh;
+                        width: 2px;
+                        background-color: #c1c3c7; }
+                      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .btn .line_2 {
+                        margin-left: 2px;
+                        margin-right: 2px; }
+                    section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .box_button_arrow {
+                      display: -webkit-box;
+                      display: -ms-flexbox;
+                      display: flex;
+                      -webkit-box-orient: vertical;
+                      -webkit-box-direction: normal;
+                      -ms-flex-direction: column;
+                      flex-direction: column;
+                      -webkit-box-align: center;
+                      -ms-flex-align: center;
+                      align-items: center;
+                      -webkit-box-pack: center;
+                      -ms-flex-pack: center;
+                      justify-content: center; }
+                      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .box_button_arrow .upLine {
+                        width: 2px;
+                        height: 1.2vh;
+                        background-color: #c1c3c7;
+                        -webkit-transform-origin: center;
+                        -ms-transform-origin: center;
+                        transform-origin: center;
+                        -webkit-transform: rotate(-45deg);
+                        -ms-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+                        margin-bottom: -2px;
+                        margin-right: -70px; }
+                      section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .settings_box .box_button .box_button_arrow .downLine {
+                        width: 2px;
+                        height: 1.2vh;
+                        background-color: #c1c3c7;
+                        -webkit-transform-origin: center;
+                        -ms-transform-origin: center;
+                        transform-origin: center;
+                        -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                        margin-top: -2px;
+                        margin-right: -70px; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .box_1,
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .box_2,
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_1 .box_3 {
+                  margin-bottom: 2px; }
+              section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_2 {
+                border: none; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_2 legend {
+                  margin-left: 5%; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_2 .settings_box {
+                  width: 100%;
+                  height: 7vh;
+                  background-color: white; }
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_2 .box_1a,
+                section:nth-child(1) .section1_secondhalf .secondHalf_mobilePhone .secondHalf_mobile .mobile_body .mobile_body_parts .mobile_screen .screen_settings .fieldset_2 .box_2a {
+                  margin-bottom: 2px; }

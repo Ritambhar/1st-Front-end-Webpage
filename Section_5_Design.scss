@@ -1,0 +1,54 @@
+section:nth-child(5) {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans';
+    background: url('img_6a.jpg');
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: 100% 100%;
+
+    .section_box {
+        width: 50%;
+        height: 60%;
+        background-color: #835fa8;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .box_container {
+            width: 50%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .container_text {
+                color: white;
+                font-size: 2rem;
+                font-weight: 100;
+                font-style: italic;                
+            }
+
+            .container_author {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .author_image {
+                    width: 7vh;
+                    height: 7vh;
+                    border-radius: 50%;
+                    background: url('Elon Musk.jpg');
+                    background-size: 140%;
+                }
+
+                .author_name {
+                    font-size: 1rem;
+                    margin-left: 3%;
+                    color: white;
+                }
+            }
+        }
+    }
+}
