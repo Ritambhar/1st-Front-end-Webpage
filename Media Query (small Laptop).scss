@@ -1,0 +1,123 @@
+@media (max-height: 600px) and (max-width: 1025px) {
+    section:nth-child(1) {
+        .section1_firstHalf {
+            height: 90vh;
+            width: 100%;
+
+            .firstHalf_heading {
+                .heading_logo {
+                    height: 20vh;
+                    margin-left: -5%;
+                    width: 15%;
+                }
+
+                .heading_others {
+                    height: 20vh;
+
+                    .others_inputText {
+                        width: 20%;
+                        height: 30%;
+                    }
+
+                    .others_inputButton {
+                        width: 10%;
+                        height: 30%;
+                    }
+                }
+            }
+        }
+
+        .section1_secondhalf {
+            height: 70vh;
+
+            
+
+            .secondHalf_mobilePhone {
+
+                .secondHalf_message {
+                    margin-bottom: 10%;
+
+                    .message_bar {
+                        height: 15vh;
+                    }
+
+                    .msg_1 {
+                        height: 10vh;
+                    }
+                }
+
+                .secondHalf_mobile {
+                    height: 100%;
+
+                    .mobile_body {
+                        height: 90vh;
+
+                        .mobile_body_parts {
+
+                            .mobile_camera {
+                                width: 13px;
+                                height: 13px;
+                            }
+
+                            .mobile_speaker {
+                                height: 11px;
+
+                                &::before {
+                                    height: 11px;
+                                    width: 25px;
+                                }
+
+                                &::after {
+                                    height: 11px;
+                                    left: 27%;
+                                }
+                            }
+
+                            .mobile_screen {
+                                height: 75%;
+
+                                .top_bar {
+                                    height: 8vh;
+                                }
+
+                                .screen_settings {
+                                    .fieldset_1 {
+                                        .settings_box {
+                                            height: 7vh;
+                                        }
+                                    }
+
+                                    .fieldset_2 {
+                                        .settings_box {
+                                            height: 7vh;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section:nth-child(2) {
+        height: 130vh;
+
+        .section2_secondHalf {
+            height: 70vh;
+        }
+    }
+
+    section:nth-child(3) {
+        height: 130vh;
+    }
+
+    section:nth-child(4) {
+        height: 80vh;
+    }
+
+    section:nth-child(5) {
+        height: 80vh;
+    }
+}
