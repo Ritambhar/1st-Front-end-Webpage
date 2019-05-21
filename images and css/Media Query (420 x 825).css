@@ -1,0 +1,114 @@
+@media (max-height: 825px) and (max-width: 420px) {
+  section:nth-Child(1) .section1_firstHalf {
+    height: 30vh; }
+    section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_logo {
+      height: 20vh;
+      margin-left: -5%;
+      margin-top: -8%;
+      width: 40%;
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6); }
+    section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others {
+      height: 15vh;
+      margin-top: -5%; }
+      section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_menu {
+        margin-top: 2%; }
+      section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_inputText {
+        width: 40%; }
+      section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_inputButton {
+        width: 20%; }
+    section:nth-Child(1) .section1_firstHalf .firstHalf_writing {
+      margin-left: 5%;
+      margin-top: 1%; }
+      section:nth-Child(1) .section1_firstHalf .firstHalf_writing span {
+        font-size: 1.4rem;
+        margin-left: 30%; }
+  section:nth-Child(1) .section1_secondHalf {
+    height: 50vh; }
+    section:nth-Child(1) .section1_secondHalf .secondHalf_writing {
+      width: 80%; }
+    section:nth-Child(1) .section1_secondHalf .secondHalf_mobilePhone {
+      width: 0; }
+      section:nth-Child(1) .section1_secondHalf .secondHalf_mobilePhone .secondHalf_message {
+        width: 0;
+        visibility: hidden; }
+        section:nth-Child(1) .section1_secondHalf .secondHalf_mobilePhone .secondHalf_message .message_bar {
+          width: 0; }
+      section:nth-Child(1) .section1_secondHalf .secondHalf_mobilePhone .secondHalf_mobile {
+        width: 0;
+        visibility: hidden; }
+  section:nth-child(2) {
+    height: 200vh; }
+    section:nth-child(2) .section2_firstHalf {
+      height: 200vh; }
+      section:nth-child(2) .section2_firstHalf .firstHalf_contents {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        section:nth-child(2) .section2_firstHalf .firstHalf_contents .topic {
+          width: 80%; }
+    section:nth-child(2) .section2_secondHalf {
+      height: 100vh;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      section:nth-child(2) .section2_secondHalf .secondHalf_empty {
+        height: 0; }
+      section:nth-child(2) .section2_secondHalf h1 {
+        font-size: 2rem; }
+      section:nth-child(2) .section2_secondHalf .secondHalf_para {
+        font-size: 0.935rem; }
+      section:nth-child(2) .section2_secondHalf .secondHalf_box {
+        width: 100%; }
+  section:nth-child(3) {
+    height: 230vh; }
+    section:nth-child(3) .section3_firstHalf {
+      height: 150vh; }
+      section:nth-child(3) .section3_firstHalf .firstHalf_container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        height: 150vh; }
+        section:nth-child(3) .section3_firstHalf .firstHalf_container .topic {
+          width: 60%; }
+          section:nth-child(3) .section3_firstHalf .firstHalf_container .topic .icon {
+            font-size: 2rem; }
+    section:nth-child(3) .section3_secondHalf {
+      height: 80vh;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; }
+      section:nth-child(3) .section3_secondHalf .secondHalf_leftside {
+        width: 100%; }
+        section:nth-child(3) .section3_secondHalf .secondHalf_leftside .leftside_container {
+          width: 70%; }
+      section:nth-child(3) .section3_secondHalf .secondHalf_rightside {
+        width: 100%; }
+  section:nth-child(4) {
+    height: 150vh; }
+    section:nth-child(4) .section_leftside {
+      width: 50%; } }
