@@ -1,7 +1,8 @@
 @media (max-height: 825px) and (max-width: 480px) {
     section:nth-Child(1) {
         .section1_firstHalf {
-            height: 30vh;
+            height: auto;
+            background-size: cover;
 
             .firstHalf_heading {
                 .heading_logo {
@@ -151,10 +152,171 @@
     }
 
     section:nth-child(4) {
-        height: 150vh;
+        height: auto;
 
         .section_leftside {
-            width: 50%;
+            .leftside_blank {
+                width: 0;
+            }
+
+            .leftside_content {
+                width: 100%;
+
+                .content_video {
+                    height: 0;
+                    width: 0;
+                }
+
+                .box_content {
+                    height: 100%;
+
+                    .content_text {
+                        justify-content: space-evenly;
+
+                        .para_1 {
+                            font-size: 0.956rem;
+                        }
+
+                        .para_2 {
+                            font-size: 0.75rem;
+                        }
+
+                        .comment {
+                            width: 65%;
+
+                            .separation {
+                                height: 4.5vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section_rightside {
+            .rightside_top {
+                height: auto;
+                align-items: center;
+
+                .top_container {
+                    .top_para {
+                        font-size: 1.3rem;
+                    }
+
+                    .top_author {
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+
+            .rightside_bottom {
+                height: 0;
+            }
+        }
+    }
+
+    section:nth-child(5) {
+        height: auto;
+        background-size: cover;
+
+        .section_box {
+            .box_container {
+                width: 70%;
+
+                .container_text {
+                    font-size: 1.3rem;
+                    margin-top: 10%;
+                }
+
+                .container_author {
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .rightside {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+
+            .rightside_box {
+                width: 100%;
+
+                .box_top {
+                    height: 100%;
+                    justify-content: center;
+
+                    .top_blank {
+                        width: 0;
+                    }
+
+                    .top_contents {
+                        width: 80%;
+
+                        .heading {
+                            font-size: 1.2rem;
+                        }
+
+                        .input {
+                            height: 6.5vh;
+
+                            input {
+                                height: 6vh;
+                            }
+
+                            .input_button {
+                                height: 6vh;
+                            }
+                        }
+                    }
+                }
+
+                .box_bottom {
+                    height: 0;
+                }
+            }
+        }
+
+        .leftside {
+            justify-content: center;
+            width: 80%;
+
+            .leftside_box {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .box_top {
+                    .top_contents {
+                        width: 100%;
+
+                        .heading {
+                            font-size: 1.2rem;
+                        }
+
+                        .para {
+                            max-width: 100%;
+                        }
+                    }
+                }
+
+                .box_bottom {
+                    margin-top: 20%;
+
+                    .bottom_contents {
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
 }
