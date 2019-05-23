@@ -70,10 +70,10 @@
     }
 
     section:nth-child(2) {
-        height: 200vh;
+        height: auto;
 
         .section2_firstHalf {
-            height: 200vh;
+            height: auto;
 
             .firstHalf_contents {
                 flex-direction: column;
@@ -81,12 +81,13 @@
 
                 .topic {
                     width: 80%;
+                    margin-bottom: 10%;
                 }
             }
         }
 
         .section2_secondHalf {
-            height: 100vh;
+            height: auto;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -107,24 +108,29 @@
             
             .secondHalf_box {
                 width: 100%;
+                height: 25vh;
             }
         }
     }
 
     section:nth-child(3) {
-        height: 230vh;
+        height: auto;
 
         .section3_firstHalf {
-            height: 150vh;
+            height: auto;
+            
 
             .firstHalf_container {
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-evenly;
-                height: 150vh;
+                height: auto;
+                
 
                 .topic {
                     width: 60%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
 
                     .icon {
                         font-size: 2rem;
@@ -134,7 +140,7 @@
         }
 
         .section3_secondHalf {
-            height: 80vh;
+            height: auto;
             flex-direction: column-reverse;
 
             .secondHalf_leftside {
@@ -147,6 +153,8 @@
 
             .secondHalf_rightside {
                 width: 100%;
+                height: 30vh;
+                background-size: cover;
             }
         }
     }
@@ -182,7 +190,7 @@
                         }
 
                         .comment {
-                            width: 65%;
+                            width: 75%;
 
                             .separation {
                                 height: 4.5vh;
@@ -224,7 +232,7 @@
                 width: 70%;
 
                 .container_text {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin-top: 10%;
                 }
 
@@ -266,7 +274,7 @@
                         }
 
                         .input {
-                            height: 6.5vh;
+                            height: auto;
 
                             input {
                                 height: 6vh;
@@ -296,6 +304,8 @@
                 align-items: center;
 
                 .box_top {
+                    height: auto;
+
                     .top_contents {
                         width: 100%;
 
@@ -311,6 +321,7 @@
 
                 .box_bottom {
                     margin-top: 20%;
+                    height: auto;
 
                     .bottom_contents {
                         width: 100%;
