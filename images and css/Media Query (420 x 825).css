@@ -3,22 +3,19 @@
     height: auto;
     background-size: cover; }
     section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_logo {
-      height: 20vh;
-      margin-left: -5%;
-      margin-top: -8%;
-      width: 40%;
-      -webkit-transform: scale(0.6);
-      -ms-transform: scale(0.6);
-      transform: scale(0.6); }
+      visibility: hidden; }
     section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others {
-      height: 15vh;
-      margin-top: -5%; }
+      height: auto; }
       section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_menu {
         margin-top: 2%; }
       section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_inputText {
-        width: 40%; }
+        width: 50%;
+        height: auto;
+        padding: 2% 2%; }
       section:nth-Child(1) .section1_firstHalf .firstHalf_heading .heading_others .others_inputButton {
-        width: 20%; }
+        width: 25%;
+        height: auto;
+        padding: 1% 4%; }
     section:nth-Child(1) .section1_firstHalf .firstHalf_writing {
       margin-left: 5%;
       margin-top: 1%; }
@@ -26,11 +23,14 @@
         font-size: 1.4rem;
         margin-left: 30%; }
   section:nth-Child(1) .section1_secondHalf {
-    height: 50vh; }
+    height: auto; }
     section:nth-Child(1) .section1_secondHalf .secondHalf_writing {
-      width: 80%; }
+      width: 80%;
+      margin-top: 10%;
+      margin-bottom: 10%; }
     section:nth-Child(1) .section1_secondHalf .secondHalf_mobilePhone {
-      width: 0; }
+      width: 0;
+      height: 0; }
       section:nth-Child(1) .section1_secondHalf .secondHalf_mobilePhone .secondHalf_message {
         width: 0;
         visibility: hidden; }
@@ -186,7 +186,7 @@
       footer .rightside .rightside_box {
         width: 100%; }
         footer .rightside .rightside_box .box_top {
-          height: 100%;
+          height: auto;
           -webkit-box-pack: center;
           -ms-flex-pack: center;
           justify-content: center; }
@@ -197,11 +197,12 @@
             footer .rightside .rightside_box .box_top .top_contents .heading {
               font-size: 1.2rem; }
             footer .rightside .rightside_box .box_top .top_contents .input {
-              height: auto; }
+              height: 6.5vh; }
               footer .rightside .rightside_box .box_top .top_contents .input input {
-                height: 6vh; }
+                height: 100%;
+                padding: 6% 0; }
               footer .rightside .rightside_box .box_top .top_contents .input .input_button {
-                height: 6vh; }
+                height: 100%; }
         footer .rightside .rightside_box .box_bottom {
           height: 0; }
     footer .leftside {

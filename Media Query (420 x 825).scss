@@ -6,27 +6,27 @@
 
             .firstHalf_heading {
                 .heading_logo {
-                    height: 20vh;
-                    margin-left: -5%;
-                    margin-top: -8%;
-                    width: 40%;
-                    transform: scale(0.6);
+                    visibility: hidden;
                 }
 
                 .heading_others {
-                    height: 15vh;
-                    margin-top: -5%;
+                    height: auto;
+                    
 
                     .others_menu {
                         margin-top: 2%;
                     }
 
                     .others_inputText {
-                        width: 40%;
+                        width: 50%;
+                        height: auto;
+                        padding: 2% 2%;
                     }
 
                     .others_inputButton {
-                        width: 20%;
+                        width: 25%;
+                        height: auto;
+                        padding: 1% 4%;
                     }
                 }
             }
@@ -43,14 +43,17 @@
         }
 
         .section1_secondHalf {
-            height: 50vh;
+            height: auto;
 
             .secondHalf_writing {
                 width: 80%;
+                margin-top: 10%;
+                margin-bottom: 10%;
             }
 
             .secondHalf_mobilePhone {
                 width: 0;
+                height: 0;
 
                 .secondHalf_message {
                     width: 0;
@@ -259,7 +262,7 @@
                 width: 100%;
 
                 .box_top {
-                    height: 100%;
+                    height: auto;
                     justify-content: center;
 
                     .top_blank {
@@ -274,14 +277,16 @@
                         }
 
                         .input {
-                            height: auto;
+                            height: 6.5vh;
 
                             input {
-                                height: 6vh;
+                                height: 100%;
+                                padding: 6% 0;
                             }
 
                             .input_button {
-                                height: 6vh;
+                                height: 100%;
+                                
                             }
                         }
                     }
